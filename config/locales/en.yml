@@ -31,6 +31,8 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  applications:
+    flash_danger_log_in: "Please log in."
   layouts:
     header:
       logo: "sample app"
@@ -102,6 +104,14 @@ en:
       error:
         one: 1 error
         other: "%{count} errors"
+    micropost_form:
+      content_placeholder: "Compose new micropost..."
+      message_alerting_maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "view my profile"
+      micropost:
+        one: 1 micropost
+        other: "%{count} microposts"
   sessions:
     new:
       title: "Log in"
