@@ -93,7 +93,7 @@ GEM
       ruby-progressbar
     multi_json (1.13.1)
     nio4r (2.3.1)
-    nokogiri (1.10.1)
+    nokogiri (1.10.2)
       mini_portile2 (~> 2.4.0)
     parallel (1.15.0)
     parser (2.6.2.0)
