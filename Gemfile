@@ -4,6 +4,9 @@ gem "rubocop", "~> 0.54.0", require: false
 gem "rails", "5.1.6"
 gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", ">= 3.4.1"
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker',          '1.7.3'
+gem 'will_paginate',           '3.1.6'
 gem "puma", "3.9.1"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", "3.2.0"
