@@ -551,3 +551,8 @@ Rails/Validation:
   Include:
     - app/models/**/*.rb
 
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
