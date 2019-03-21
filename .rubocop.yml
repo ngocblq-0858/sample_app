@@ -19,6 +19,9 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
+    - 'Rakefile'
+    - 'Gemfile'
+    - 'test/test_helper.rb'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
