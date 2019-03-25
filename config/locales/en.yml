@@ -31,12 +31,28 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      logo: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      text_tag_small_1: "The"
+      text_ror_url: "Ruby on Rails Tutorial"
+      text_tag_small_2: "by"
+      author_name: Michael Hartl
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_pages:
     home:
       title: "Sample App"
-      text_tag_p_1: "This is the home page for the"
-      text_of_link: "sample application."
-      text_tag_p_2: "Ruby on Rails Tutorial"
+      wellcome: "Wellcome to the Sample App"
+      text_tag_h2_1: "This is the home page for the"
+      text_ror_url: "Ruby on Rails Tutorial"
+      text_tag_h2_2: "sample application."
+      signup: "Sign up now!"
     about:
       title: "About"
       text_tag_p_1: "The"
@@ -59,3 +75,13 @@ en:
       text_tag_p_2: "To get help on this sample app, see the"
       text_tag_em: "Ruby on Rails Tutorial"
       text_tag_a_2: "book"
+  users:
+    new:
+      title: "Sign up"
+      introduction: "This will be a signup page for new users."
+  test:
+    common:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    helper:
+      application:
+        help_title: "Help | Ruby on Rails Tutorial Sample App"
