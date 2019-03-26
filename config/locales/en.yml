@@ -79,9 +79,32 @@ en:
     new:
       title: "Sign up"
       introduction: "This will be a signup page for new users."
+      label_password_confirmation: "Confirmation"
+      text_submit_button: "Create my account"
+    create:
+      wellcome: "Welcome to the Sample App!"
+    error:
+      message: "Wrong user id"
+  shared:
+    error_messages:
+      text_flash: "The form contains"
+      error:
+        one: 1 error
+        other: "%{count} errors"
   test:
     common:
       base_title: "Ruby on Rails Tutorial Sample App"
     helper:
       application:
         help_title: "Help | Ruby on Rails Tutorial Sample App"
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+    submit:
+      user:
+        create: "Create my account"
+
