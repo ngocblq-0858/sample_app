@@ -9,5 +9,11 @@ class ActiveSupport::TestCase
   fixtures :all
   include ApplicationHelper
 
-  # Add more helper methods to be used by all tests here...
+  def add_locale_to_link link
+    link + "?locale=" + I18n.locale.to_s
+  end
+
+  def is_logged_in?
+    !session[:user_id].nil?
+  end
 end
