@@ -101,7 +101,7 @@ en:
       new_user: "New user?"
       sign_up: "Sign up now!"
     create:
-      danger_message: "Invalid email/password combination"
+      flash_invalid_email_password: "Invalid email/password combination"
   test:
     common:
       base_title: "Ruby on Rails Tutorial Sample App"
