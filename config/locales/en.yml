@@ -88,6 +88,11 @@ en:
       text_submit_button: "Create my account"
     create:
       wellcome: "Welcome to the Sample App!"
+    update:
+      message_update_success: "Profile updated"
+    destroy:
+      message_delete_success: "User deleted"
+      message_delete_unsuccess: "A problem was encounted. No users were deleted."
     error:
       message: "Wrong user id"
   shared:
@@ -98,8 +103,12 @@ en:
         other: "%{count} errors"
   sessions:
     new:
+      title: "Log in"
       new_user: "New user?"
       sign_up: "Sign up now!"
+      remember: "Remember me on this computer"
+      submit: "Log in"
+      flash_danger_message: "Please log in."
     create:
       flash_invalid_email_password: "Invalid email/password combination"
   test:
@@ -121,5 +130,4 @@ en:
     submit:
       user:
         create: "Create my account"
-      session:
-        create: "Log in"
+
