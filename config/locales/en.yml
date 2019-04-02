@@ -87,6 +87,7 @@ en:
       label_password_confirmation: "Confirmation"
       text_submit_button: "Create my account"
     create:
+      flash_check_email: "Please check your email to activate your account."
       wellcome: "Welcome to the Sample App!"
     update:
       message_update_success: "Profile updated"
@@ -110,6 +111,7 @@ en:
       submit: "Log in"
       flash_danger_message: "Please log in."
     create:
+      flash_invalid_activation: "Account not activated. Check your email for the activation link."
       flash_invalid_email_password: "Invalid email/password combination"
   test:
     common:
@@ -117,6 +119,19 @@ en:
     helper:
       application:
         help_title: "Help | Ruby on Rails Tutorial Sample App"
+  account_activations:
+    edit:
+      flash_account_activated: "Account activated!"
+      flash_invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      subject: "Account activation"
+    password_reset:
+      title: "User#password_reset"
+      body: ", find me in app/views/user_mailer/password_reset.html.erb"
   helpers:
     label:
       user:
