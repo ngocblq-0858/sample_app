@@ -98,6 +98,18 @@ en:
       message_delete_unsuccess: "A problem was encounted. No users were deleted."
     error:
       message: "Wrong user id"
+    follow:
+      submit: "Follow"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts:"
+  relationships:
+    load_followed:
+      user_not_found: "User not found"
   shared:
     error_messages:
       text_flash: "The form contains"
@@ -112,6 +124,9 @@ en:
       micropost:
         one: 1 micropost
         other: "%{count} microposts"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       title: "Log in"
